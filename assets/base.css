@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --color-one: #f7d9c4;
+    --color-two: #ff8484;
+    --color-bg: #efefef;
+    --color-text1: #777777;
+    --color-text2: #232323;
+    --font: 'Inria Serif', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1140px;
+    flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--color-text1);
+    word-spacing: 1.5px;
+}
+
+a {
+    text-decoration: none;
+}
